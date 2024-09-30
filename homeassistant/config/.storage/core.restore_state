@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"person.ovidio","state":"not_home","attributes":{"editable":true,"id":"ovidio","device_trackers":["device_tracker.iphone_de_ovidio_miguel"],"latitude":39.3935546875,"longitude":-3.2183940854131334,"gps_accuracy":35,"source":"device_tracker.iphone_de_ovidio_miguel","user_id":"5167920898d744a8b32792ad3fe78570","friendly_name":"ovidio"},"last_changed":"2024-07-06T15:47:19.921031+00:00","last_reported":"2024-07-06T15:47:54.159006+00:00","last_updated":"2024-07-06T15:47:54.159006+00:00","context":{"id":"01J24BNZ5FG561S9JSTFDSH9NJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant"},"last_changed":"2024-07-06T15:47:22.859094+00:00","last_reported":"2024-07-06T15:47:22.859094+00:00","last_updated":"2024-07-06T15:47:22.859094+00:00","context":{"id":"01J24BN0KB65XXCE6EE0KE856R","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.iphone_de_ovidio_miguel_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"iPhone de Ovidio Miguel Focus"},"last_changed":"2024-07-06T15:47:43.326304+00:00","last_reported":"2024-07-06T15:47:43.326304+00:00","last_updated":"2024-07-06T15:47:43.326304+00:00","context":{"id":"01J24BNMJYT0575WRMQXQZC7CF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.iphone_de_ovidio_miguel","state":"not_home","attributes":{"source_type":"gps","battery_level":60,"latitude":39.3935546875,"longitude":-3.2183940854131334,"gps_accuracy":35,"altitude":639.6914291381836,"vertical_accuracy":26.169763565063477,"friendly_name":"iPhone de Ovidio Miguel"},"last_changed":"2024-07-06T15:47:43.327599+00:00","last_reported":"2024-07-06T15:47:43.327599+00:00","last_updated":"2024-07-06T15:47:43.327599+00:00","context":{"id":"01J24BNMJZT1FNGKQR8H087PYQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_battery_level","state":"100","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery","friendly_name":"iPhone de Ovidio Miguel Battery Level"},"last_changed":"2024-07-06T15:47:43.328889+00:00","last_reported":"2024-07-06T15:47:43.328889+00:00","last_updated":"2024-07-06T15:47:43.328889+00:00","context":{"id":"01J24BNMK0ESTMMEBRAA8EAYAD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 100,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_battery_state","state":"Not Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery","friendly_name":"iPhone de Ovidio Miguel Battery State"},"last_changed":"2024-07-06T15:47:43.329162+00:00","last_reported":"2024-07-06T15:47:43.329162+00:00","last_updated":"2024-07-06T15:47:43.329162+00:00","context":{"id":"01J24BNMK1D1MKFXJZTTKZ8CRX","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone de Ovidio Miguel SIM 2"},"last_changed":"2024-07-06T15:47:43.329387+00:00","last_reported":"2024-07-06T15:47:43.329387+00:00","last_updated":"2024-07-06T15:47:43.329387+00:00","context":{"id":"01J24BNMK1YQYGEW4GJRSVXB9E","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"iPhone de Ovidio Miguel SIM 1"},"last_changed":"2024-07-06T15:47:43.329587+00:00","last_reported":"2024-07-06T15:47:43.329587+00:00","last_updated":"2024-07-06T15:47:43.329587+00:00","context":{"id":"01J24BNMK1TGMAQR7JA56HTP0P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_geocoded_location","state":"Calle del General Prim, 33\n13600 Alcázar de San Juan Ciudad Real\nEspaña","attributes":{"Administrative Area":"Ciudad Real","Areas Of Interest":"N/A","Country":"España","Inland Water":"N/A","ISO Country Code":"ES","Locality":"Alcázar de San Juan","Location":[39.3935546875,-3.2183940854131334],"Name":"Calle del General Prim, 33","Ocean":"N/A","Postal Code":"13600","Sub Administrative Area":"N/A","Sub Locality":"N/A","Sub Thoroughfare":"33","Thoroughfare":"Calle del General Prim","Time Zone":"Europe/Madrid","Zones":[],"icon":"mdi:map","friendly_name":"iPhone de Ovidio Miguel Geocoded Location"},"last_changed":"2024-07-06T15:47:43.329780+00:00","last_reported":"2024-07-06T15:47:43.329780+00:00","last_updated":"2024-07-06T15:47:43.329780+00:00","context":{"id":"01J24BNMK1S7145QXRPASE6TKG","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Calle del General Prim, 33\n13600 Alcázar de San Juan Ciudad Real\nEspaña",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"iPhone de Ovidio Miguel Last Update Trigger"},"last_changed":"2024-07-06T15:47:43.329978+00:00","last_reported":"2024-07-06T15:47:43.329978+00:00","last_updated":"2024-07-06T15:47:43.329978+00:00","context":{"id":"01J24BNMK1D417XC4YJTG8QJWB","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Signaled",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_storage","state":"47.09","attributes":{"Available":"116,02 GB","Available (Important)":"124,72 GB","Available (Opportunistic)":"120,48 GB","Total":"255,88 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"iPhone de Ovidio Miguel Storage"},"last_changed":"2024-07-06T15:47:43.330171+00:00","last_reported":"2024-07-06T15:47:43.330171+00:00","last_updated":"2024-07-06T15:47:43.330171+00:00","context":{"id":"01J24BNMK25JFB7QZEZ8WYMRRP","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "47.09",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_bssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"iPhone de Ovidio Miguel BSSID"},"last_changed":"2024-07-06T15:47:43.330356+00:00","last_reported":"2024-07-06T15:47:43.330356+00:00","last_updated":"2024-07-06T15:47:43.330356+00:00","context":{"id":"01J24BNMK286ECWST8KYMJKHTD","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"iPhone de Ovidio Miguel Connection Type"},"last_changed":"2024-07-06T15:47:43.330539+00:00","last_reported":"2024-07-06T15:47:43.330539+00:00","last_updated":"2024-07-06T15:47:43.330539+00:00","context":{"id":"01J24BNMK2PQ236CDJ6X7C6E60","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_ssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"iPhone de Ovidio Miguel SSID"},"last_changed":"2024-07-06T15:47:43.330732+00:00","last_reported":"2024-07-06T15:47:43.330732+00:00","last_updated":"2024-07-06T15:47:43.330732+00:00","context":{"id":"01J24BNMK2MFVN2K47D9ASA32P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_activity","state":"Unknown","attributes":{"Confidence":"High","Types":["Unknown"],"icon":"mdi:help-circle","friendly_name":"iPhone de Ovidio Miguel Activity"},"last_changed":"2024-07-06T15:47:43.330919+00:00","last_reported":"2024-07-06T15:47:43.330919+00:00","last_updated":"2024-07-06T15:47:43.330919+00:00","context":{"id":"01J24BNMK2E2KKRRK2Q78AJ4WK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_distance","state":"60","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"iPhone de Ovidio Miguel Distance"},"last_changed":"2024-07-06T15:47:43.331101+00:00","last_reported":"2024-07-06T15:47:43.331101+00:00","last_updated":"2024-07-06T15:47:43.331101+00:00","context":{"id":"01J24BNMK3MJHS79XEGRC06QVM","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 60,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"iPhone de Ovidio Miguel Floors Ascended"},"last_changed":"2024-07-06T15:47:43.331278+00:00","last_reported":"2024-07-06T15:47:43.331278+00:00","last_updated":"2024-07-06T15:47:43.331278+00:00","context":{"id":"01J24BNMK3RRNRZWNH189GDHBT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"iPhone de Ovidio Miguel Floors Descended"},"last_changed":"2024-07-06T15:47:43.331456+00:00","last_reported":"2024-07-06T15:47:43.331456+00:00","last_updated":"2024-07-06T15:47:43.331456+00:00","context":{"id":"01J24BNMK320DA0PE9VCFJRE14","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_steps","state":"94","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"iPhone de Ovidio Miguel Steps"},"last_changed":"2024-07-06T15:47:43.331630+00:00","last_reported":"2024-07-06T15:47:43.331630+00:00","last_updated":"2024-07-06T15:47:43.331630+00:00","context":{"id":"01J24BNMK339K2M79B787Y0G1A","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 94,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.iphone_de_ovidio_miguel_average_active_pace","state":"1","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"iPhone de Ovidio Miguel Average Active Pace"},"last_changed":"2024-07-06T15:47:43.331821+00:00","last_reported":"2024-07-06T15:47:43.331821+00:00","last_updated":"2024-07-06T15:47:43.331821+00:00","context":{"id":"01J24BNMK3YCMH0C3VQKXVGTAJ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_en_com","state":"unknown","attributes":{"friendly_name":"Google en com"},"last_changed":"2024-07-06T15:47:43.445533+00:00","last_reported":"2024-07-06T15:47:43.445533+00:00","last_updated":"2024-07-06T15:47:43.445533+00:00","context":{"id":"01J24BNMPNH5DV00BCG21EE0V8","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"media_player.lg_webos_tv_nano816na","state":"off","attributes":{"source_list":["AV","Alertas de deportes","Amazon Alexa","Apple TV","Componente","Disney+","Filmin","Foto y Video","HBO España","HBO Max","HDMI 1","HDMI 2","HDMI 3","HDMI 4","LG Channels","LG Content Store","Live TV","Movistar Plus+","Música","Navegador web","Netflix","Panel de casa","Pixel Dash","Pluto TV","Prime Video","RTVE.es Play","Rakuten TV","SS IPTV","SkyShowtime","Spotify – Música y podcasts","Stremio","Tetris","Twitch","YouTube"],"assumed_state":true,"device_class":"tv","friendly_name":"[LG] webOS TV NANO816NA","supported_features":24381},"last_changed":"2024-07-07T10:10:56.872087+00:00","last_reported":"2024-07-07T10:17:50.360614+00:00","last_updated":"2024-07-07T10:11:28.780571+00:00","context":{"id":"01J26ATNWCYE9XCRBEC2AQ8J21","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.lumi_lumi_sensor_motion_ocupacion","state":"unavailable","attributes":{"device_class":"occupancy","friendly_name":"LUMI lumi.sensor_motion Ocupación"},"last_changed":"2024-07-06T15:47:54.115945+00:00","last_reported":"2024-07-06T15:47:54.115945+00:00","last_updated":"2024-07-06T15:47:54.115945+00:00","context":{"id":"01J24BNZ4329T6KXGE0EXSKJWK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.lumi_lumi_sensor_motion_movimiento","state":"unavailable","attributes":{"device_class":"motion","friendly_name":"LUMI lumi.sensor_motion Movimiento"},"last_changed":"2024-07-06T15:47:54.116587+00:00","last_reported":"2024-07-06T15:47:54.116587+00:00","last_updated":"2024-07-06T15:47:54.116587+00:00","context":{"id":"01J24BNZ44GG46EC80FM5GVAZJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"button.lumi_lumi_sensor_switch_identificar","state":"unknown","attributes":{"device_class":"identify","friendly_name":"LUMI lumi.sensor_switch Identificar"},"last_changed":"2024-07-06T16:28:25.555683+00:00","last_reported":"2024-07-06T16:32:06.100876+00:00","last_updated":"2024-07-06T16:28:25.555683+00:00","context":{"id":"01J24E05JKZNRGG472PXTTX4ZJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"button.lumi_lumi_sensor_motion_identificar","state":"unavailable","attributes":{"device_class":"identify","friendly_name":"LUMI lumi.sensor_motion Identificar"},"last_changed":"2024-07-06T15:47:54.118601+00:00","last_reported":"2024-07-06T15:47:54.118601+00:00","last_updated":"2024-07-06T15:47:54.118601+00:00","context":{"id":"01J24BNZ46X0EMASCYWG9XHYBV","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"button.philips_lwa001_identificar","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Philips LWA001 Identificar"},"last_changed":"2024-07-06T15:49:02.349068+00:00","last_reported":"2024-07-06T16:02:38.090895+00:00","last_updated":"2024-07-06T15:49:02.349068+00:00","context":{"id":"01J24BR1RDEZHK5A35KB65XTE1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"button.lumi_lumi_plug_identificar","state":"unknown","attributes":{"device_class":"identify","friendly_name":"LUMI lumi.plug Identificar"},"last_changed":"2024-07-06T15:48:11.900901+00:00","last_reported":"2024-07-06T16:01:34.101779+00:00","last_updated":"2024-07-06T15:48:11.900901+00:00","context":{"id":"01J24BPGFWRSX0G8XY1EQPRR00","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"light.philips_lwa001_luz","state":"off","attributes":{"supported_color_modes":["brightness"],"color_mode":null,"brightness":null,"off_with_transition":false,"off_brightness":null,"friendly_name":"Philips LWA001 Luz","supported_features":40},"last_changed":"2024-07-06T15:49:02.259032+00:00","last_reported":"2024-07-06T16:02:38.090997+00:00","last_updated":"2024-07-06T15:49:02.259032+00:00","context":{"id":"01J24BR1NKFR3DCEZMEA9SYE5X","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"number.philips_lwa001_nivel_de_corriente_de_inicio","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Philips LWA001 Nivel de corriente de inicio"},"last_changed":"2024-07-06T15:49:02.349324+00:00","last_reported":"2024-07-06T16:02:38.091077+00:00","last_updated":"2024-07-06T15:49:02.349324+00:00","context":{"id":"01J24BR1RD1D75FFMD9PGMNER0","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"select.philips_lwa001_comportamiento_inicial","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Philips LWA001 Comportamiento inicial"},"last_changed":"2024-07-06T15:49:02.259192+00:00","last_reported":"2024-07-06T16:02:38.091142+00:00","last_updated":"2024-07-06T15:49:02.259192+00:00","context":{"id":"01J24BR1NKCXV8P961E8W3JCZC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_sensor_switch_bateria","state":"68","attributes":{"state_class":"measurement","battery_size":"CR2032","battery_quantity":1,"battery_voltage":3.01,"unit_of_measurement":"%","device_class":"battery","friendly_name":"LUMI lumi.sensor_switch Batería"},"last_changed":"2024-07-06T17:28:41.460973+00:00","last_reported":"2024-07-06T17:32:10.140730+00:00","last_updated":"2024-07-06T17:28:41.460973+00:00","context":{"id":"01J24HEGQMT7JXHFC13HQ4DQ1H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_sensor_motion_bateria","state":"unavailable","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"LUMI lumi.sensor_motion Batería"},"last_changed":"2024-07-06T15:47:54.135046+00:00","last_reported":"2024-07-06T15:47:54.135046+00:00","last_updated":"2024-07-06T15:47:54.135046+00:00","context":{"id":"01J24BNZ4QJ5AJFHP9KFKDQAZ6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_potencia_aparente","state":"unknown","attributes":{"state_class":"measurement","unit_of_measurement":"VA","device_class":"apparent_power","friendly_name":"LUMI lumi.plug Potencia aparente"},"last_changed":"2024-07-06T15:48:11.850622+00:00","last_reported":"2024-07-06T16:02:24.164847+00:00","last_updated":"2024-07-06T15:48:11.850622+00:00","context":{"id":"01J24BPGEAVTAY9WZW0TBX0MRM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_intensidad_de_corriente","state":"unknown","attributes":{"state_class":"measurement","unit_of_measurement":"A","device_class":"current","friendly_name":"LUMI lumi.plug Intensidad de corriente"},"last_changed":"2024-07-06T15:48:11.850785+00:00","last_reported":"2024-07-06T16:02:24.164877+00:00","last_updated":"2024-07-06T15:48:11.850785+00:00","context":{"id":"01J24BPGEA1QPAYDNZ1SJMGKNR","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_voltaje","state":"0","attributes":{"state_class":"measurement","unit_of_measurement":"V","device_class":"voltage","friendly_name":"LUMI lumi.plug Voltaje"},"last_changed":"2024-07-06T15:48:11.850932+00:00","last_reported":"2024-07-06T16:02:24.164917+00:00","last_updated":"2024-07-06T15:48:11.850932+00:00","context":{"id":"01J24BPGEAYCWPXA2EWQ20Q2CK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_frecuencia_de_ca","state":"unknown","attributes":{"state_class":"measurement","unit_of_measurement":"Hz","device_class":"frequency","friendly_name":"LUMI lumi.plug Frecuencia de CA"},"last_changed":"2024-07-06T15:48:11.851037+00:00","last_reported":"2024-07-06T16:02:24.164945+00:00","last_updated":"2024-07-06T15:48:11.851037+00:00","context":{"id":"01J24BPGEB4Q6RZ5K0Q81WT363","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_factor_de_potencia","state":"unknown","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"power_factor","friendly_name":"LUMI lumi.plug Factor de potencia"},"last_changed":"2024-07-06T15:48:11.851141+00:00","last_reported":"2024-07-06T16:02:24.164975+00:00","last_updated":"2024-07-06T15:48:11.851141+00:00","context":{"id":"01J24BPGEBWHSHQWW1X0X5D426","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_temperatura_del_dispositivo","state":"40.0","attributes":{"state_class":"measurement","unit_of_measurement":"°C","device_class":"temperature","friendly_name":"LUMI lumi.plug Temperatura del dispositivo"},"last_changed":"2024-07-07T08:50:49.871975+00:00","last_reported":"2024-07-07T09:02:28.646780+00:00","last_updated":"2024-07-07T08:50:49.871975+00:00","context":{"id":"01J26670CF2PDKPYAJ36285KGK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_potencia","state":"0.0","attributes":{"state_class":"measurement","unit_of_measurement":"W","device_class":"power","friendly_name":"LUMI lumi.plug Potencia"},"last_changed":"2024-07-06T15:48:11.851278+00:00","last_reported":"2024-07-06T16:02:24.165185+00:00","last_updated":"2024-07-06T15:48:11.851278+00:00","context":{"id":"01J24BPGEBFP729W56DHPE828Y","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_demanda_instantanea","state":"unknown","attributes":{"state_class":"measurement","device_type":"Electric Metering","unit_of_measurement":"W","device_class":"power","friendly_name":"LUMI lumi.plug Demanda instantánea"},"last_changed":"2024-07-06T15:48:11.757511+00:00","last_reported":"2024-07-06T16:01:34.102356+00:00","last_updated":"2024-07-06T15:48:11.757511+00:00","context":{"id":"01J24BPGBDBMHBNQ7GYF5Z6TGC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lumi_lumi_plug_resumen_entregado","state":"1.342","attributes":{"state_class":"total_increasing","device_type":"Electric Metering","unit_of_measurement":"kWh","device_class":"energy","friendly_name":"LUMI lumi.plug Resumen entregado"},"last_changed":"2024-07-06T15:53:33.814421+00:00","last_reported":"2024-07-06T16:01:34.102440+00:00","last_updated":"2024-07-06T15:53:33.814421+00:00","context":{"id":"01J24C0AVPK8X4K72W4AMZX84C","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.lumi_lumi_plug_interruptor","state":"off","attributes":{"friendly_name":"LUMI lumi.plug Interruptor"},"last_changed":"2024-07-06T15:48:11.756748+00:00","last_reported":"2024-07-06T16:01:34.102494+00:00","last_updated":"2024-07-06T15:48:11.756748+00:00","context":{"id":"01J24BPGBC0VY7CANMARNESCMX","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"update.lumi_lumi_sensor_switch_firmware","state":"unknown","attributes":{"auto_update":false,"installed_version":null,"in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"LUMI lumi.sensor_switch Firmware","supported_features":7},"last_changed":"2024-07-06T16:28:25.556080+00:00","last_reported":"2024-07-06T16:32:06.101092+00:00","last_updated":"2024-07-06T16:28:25.556080+00:00","context":{"id":"01J24E05JMY50J5VG4SCBQ06XC","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"update.lumi_lumi_sensor_motion_firmware","state":"unavailable","attributes":{"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"LUMI lumi.sensor_motion Firmware","supported_features":7},"last_changed":"2024-07-06T15:47:54.144222+00:00","last_reported":"2024-07-06T15:47:54.144222+00:00","last_updated":"2024-07-06T15:47:54.144222+00:00","context":{"id":"01J24BNZ503YTYMZDEBCW3ZK0G","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"update.philips_lwa001_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x01000d00","in_progress":false,"latest_version":"0x01000d00","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Philips LWA001 Firmware","supported_features":7},"last_changed":"2024-07-06T15:49:02.349531+00:00","last_reported":"2024-07-06T16:02:38.091191+00:00","last_updated":"2024-07-06T15:49:02.349531+00:00","context":{"id":"01J24BR1RD5XAYKQ41ED4QT84F","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    },
+    {
+      "state": {"entity_id":"update.lumi_lumi_plug_firmware","state":"off","attributes":{"auto_update":false,"installed_version":"0x00000022","in_progress":false,"latest_version":"0x00000022","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"LUMI lumi.plug Firmware","supported_features":7},"last_changed":"2024-07-06T15:48:11.901822+00:00","last_reported":"2024-07-06T16:01:34.102548+00:00","last_updated":"2024-07-06T15:48:11.901822+00:00","context":{"id":"01J24BPGFX90P81WF6C9PW0T34","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-07-07T11:47:54.213630+00:00"
+    }
+  ]
+}

@@ -1,0 +1,720 @@
+2024-09-16 12:00:42,984 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-16 12:00:42,988 INFO supervisord started with pid 173
+2024-09-16 12:00:43,990 INFO spawned: 'mqtt' with pid 192
+2024-09-16 12:00:45,045 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-16 13:36:43,581 WARN received SIGHUP indicating restart request
+2024-09-16 13:36:43,581 INFO waiting for mqtt to die
+2024-09-16 13:36:43,599 INFO stopped: mqtt (exit status 0)
+2024-09-16 13:36:43,604 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-16 13:36:43,605 INFO supervisord started with pid 173
+2024-09-16 13:36:44,607 INFO spawned: 'mqtt' with pid 214
+2024-09-16 13:36:45,615 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-16 13:37:02,448 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-16 13:37:02,449 INFO supervisord started with pid 173
+2024-09-16 13:37:03,452 INFO spawned: 'mqtt' with pid 192
+2024-09-16 13:37:05,270 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-18 00:38:59,323 WARN received SIGHUP indicating restart request
+2024-09-18 00:38:59,324 INFO waiting for mqtt to die
+2024-09-18 00:38:59,371 INFO stopped: mqtt (exit status 0)
+2024-09-18 00:38:59,377 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-18 00:38:59,378 INFO supervisord started with pid 173
+2024-09-18 00:39:00,381 INFO spawned: 'mqtt' with pid 214
+2024-09-18 00:39:00,384 INFO spawned: 'intent_recognition' with pid 215
+2024-09-18 00:39:02,379 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-18 00:39:02,379 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-18 00:43:51,983 WARN received SIGHUP indicating restart request
+2024-09-18 00:43:51,984 INFO waiting for intent_recognition, mqtt to die
+2024-09-18 00:43:51,987 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-18 00:43:51,990 INFO stopped: mqtt (exit status 0)
+2024-09-18 00:43:51,995 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-18 00:43:51,997 INFO supervisord started with pid 173
+2024-09-18 00:43:52,999 INFO spawned: 'mqtt' with pid 230
+2024-09-18 00:43:53,003 INFO spawned: 'intent_recognition' with pid 231
+2024-09-18 00:43:54,003 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-18 00:43:54,003 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:14:55,709 WARN received SIGHUP indicating restart request
+2024-09-19 00:14:55,710 INFO waiting for intent_recognition, mqtt to die
+2024-09-19 00:14:55,711 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 00:14:55,718 INFO stopped: mqtt (exit status 0)
+2024-09-19 00:14:55,724 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 00:14:55,725 INFO supervisord started with pid 173
+2024-09-19 00:14:56,728 INFO spawned: 'mqtt' with pid 246
+2024-09-19 00:14:56,731 INFO spawned: 'intent_recognition' with pid 247
+2024-09-19 00:14:56,739 INFO spawned: 'speakers' with pid 248
+2024-09-19 00:14:57,732 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:14:57,734 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:14:57,734 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:16:36,052 WARN received SIGHUP indicating restart request
+2024-09-19 00:16:36,053 INFO waiting for intent_recognition, mqtt, speakers to die
+2024-09-19 00:16:36,056 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 00:16:36,059 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 00:16:36,067 INFO stopped: mqtt (exit status 0)
+2024-09-19 00:16:36,076 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 00:16:36,076 INFO supervisord started with pid 173
+2024-09-19 00:16:37,080 INFO spawned: 'mqtt' with pid 277
+2024-09-19 00:16:37,084 INFO spawned: 'intent_recognition' with pid 278
+2024-09-19 00:16:37,086 INFO spawned: 'speakers' with pid 279
+2024-09-19 00:16:37,098 INFO spawned: 'text_to_speech' with pid 285
+2024-09-19 00:16:38,083 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:16:38,083 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:16:39,085 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:16:39,085 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:24:09,364 WARN received SIGHUP indicating restart request
+2024-09-19 00:24:09,365 INFO waiting for intent_recognition, mqtt, speakers, text_to_speech to die
+2024-09-19 00:24:09,367 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 00:24:09,369 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 00:24:09,371 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 00:24:09,376 INFO stopped: mqtt (exit status 0)
+2024-09-19 00:24:09,382 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 00:24:09,383 INFO supervisord started with pid 173
+2024-09-19 00:24:10,385 INFO spawned: 'mqtt' with pid 329
+2024-09-19 00:24:10,389 INFO spawned: 'intent_recognition' with pid 330
+2024-09-19 00:24:10,396 INFO spawned: 'intent_handling' with pid 331
+2024-09-19 00:24:10,400 INFO spawned: 'text_to_speech' with pid 332
+2024-09-19 00:24:10,410 INFO spawned: 'speakers' with pid 338
+2024-09-19 00:24:11,386 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:24:11,387 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:24:11,391 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:24:11,397 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:24:12,402 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:55:28,341 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 00:55:28,356 INFO supervisord started with pid 173
+2024-09-19 00:55:29,359 INFO spawned: 'mqtt' with pid 192
+2024-09-19 00:55:29,363 INFO spawned: 'intent_recognition' with pid 193
+2024-09-19 00:55:29,367 INFO spawned: 'intent_handling' with pid 194
+2024-09-19 00:55:29,372 INFO spawned: 'text_to_speech' with pid 195
+2024-09-19 00:55:29,378 INFO spawned: 'speakers' with pid 196
+2024-09-19 00:55:31,326 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:55:31,326 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:55:31,327 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:55:31,327 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 00:55:31,327 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 01:26:14,556 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 01:26:14,569 INFO supervisord started with pid 173
+2024-09-19 01:26:15,572 INFO spawned: 'mqtt' with pid 192
+2024-09-19 01:26:15,576 INFO spawned: 'intent_recognition' with pid 193
+2024-09-19 01:26:15,579 INFO spawned: 'intent_handling' with pid 194
+2024-09-19 01:26:15,583 INFO spawned: 'text_to_speech' with pid 195
+2024-09-19 01:26:15,587 INFO spawned: 'speakers' with pid 196
+2024-09-19 01:26:17,300 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 01:26:17,300 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 01:26:17,300 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 01:26:17,300 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 01:26:17,300 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 07:51:48,286 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 07:51:48,302 INFO supervisord started with pid 172
+2024-09-19 07:51:49,305 INFO spawned: 'mqtt' with pid 191
+2024-09-19 07:51:49,308 INFO spawned: 'intent_recognition' with pid 192
+2024-09-19 07:51:49,312 INFO spawned: 'intent_handling' with pid 193
+2024-09-19 07:51:49,315 INFO spawned: 'text_to_speech' with pid 194
+2024-09-19 07:51:49,319 INFO spawned: 'speakers' with pid 195
+2024-09-19 07:51:50,451 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 07:51:50,452 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 07:51:50,452 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 07:51:50,452 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 07:51:50,452 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:25:17,759 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 18:25:17,768 INFO supervisord started with pid 172
+2024-09-19 18:25:18,770 INFO spawned: 'mqtt' with pid 191
+2024-09-19 18:25:18,773 INFO spawned: 'intent_recognition' with pid 192
+2024-09-19 18:25:18,777 INFO spawned: 'intent_handling' with pid 193
+2024-09-19 18:25:18,780 INFO spawned: 'text_to_speech' with pid 194
+2024-09-19 18:25:18,784 INFO spawned: 'speakers' with pid 195
+2024-09-19 18:25:20,384 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:25:20,384 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:25:20,384 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:25:20,384 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:25:20,384 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:50:58,131 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 18:50:58,171 INFO supervisord started with pid 173
+2024-09-19 18:50:59,174 INFO spawned: 'mqtt' with pid 192
+2024-09-19 18:50:59,178 INFO spawned: 'intent_recognition' with pid 193
+2024-09-19 18:50:59,184 INFO spawned: 'intent_handling' with pid 194
+2024-09-19 18:50:59,192 INFO spawned: 'text_to_speech' with pid 195
+2024-09-19 18:50:59,195 INFO spawned: 'speakers' with pid 199
+2024-09-19 18:51:00,220 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:51:00,220 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:51:00,221 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:51:00,221 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 18:51:00,221 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:24:16,090 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 19:24:16,179 INFO supervisord started with pid 173
+2024-09-19 19:33:39,668 INFO spawned: 'mqtt' with pid 192
+2024-09-19 19:33:39,671 INFO spawned: 'intent_recognition' with pid 193
+2024-09-19 19:33:39,678 INFO spawned: 'intent_handling' with pid 194
+2024-09-19 19:33:39,684 INFO spawned: 'text_to_speech' with pid 195
+2024-09-19 19:33:39,688 INFO spawned: 'speakers' with pid 196
+2024-09-19 19:33:40,830 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:33:40,831 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:33:40,831 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:33:40,831 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:33:40,831 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:41:31,124 WARN received SIGHUP indicating restart request
+2024-09-19 19:41:31,125 INFO waiting for intent_recognition, mqtt, intent_handling, text_to_speech, speakers to die
+2024-09-19 19:41:31,128 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 19:41:31,129 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 19:41:31,135 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 19:41:31,136 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 19:41:31,143 INFO stopped: mqtt (exit status 0)
+2024-09-19 19:41:31,154 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 19:41:31,155 INFO supervisord started with pid 173
+2024-09-19 19:41:32,158 INFO spawned: 'mqtt' with pid 296
+2024-09-19 19:41:32,162 INFO spawned: 'intent_recognition' with pid 297
+2024-09-19 19:41:32,171 INFO spawned: 'intent_handling' with pid 298
+2024-09-19 19:41:32,174 INFO spawned: 'text_to_speech' with pid 299
+2024-09-19 19:41:32,177 INFO spawned: 'speakers' with pid 300
+2024-09-19 19:41:33,175 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:41:33,175 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:41:33,175 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:41:33,175 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 19:41:33,175 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:26,604 WARN received SIGHUP indicating restart request
+2024-09-19 21:35:26,604 INFO waiting for intent_recognition, mqtt, intent_handling, text_to_speech, speakers to die
+2024-09-19 21:35:26,605 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:35:26,607 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:35:26,608 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:35:26,611 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:35:26,718 INFO stopped: mqtt (exit status 0)
+2024-09-19 21:35:26,726 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:35:26,727 INFO supervisord started with pid 173
+2024-09-19 21:35:27,730 INFO spawned: 'mqtt' with pid 495
+2024-09-19 21:35:27,733 INFO spawned: 'intent_recognition' with pid 496
+2024-09-19 21:35:27,741 INFO spawned: 'intent_handling' with pid 497
+2024-09-19 21:35:27,744 INFO spawned: 'text_to_speech' with pid 498
+2024-09-19 21:35:27,748 INFO spawned: 'speakers' with pid 499
+2024-09-19 21:35:29,122 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:29,122 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:29,122 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:29,122 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:29,122 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:51,497 WARN received SIGHUP indicating restart request
+2024-09-19 21:35:51,497 INFO waiting for intent_recognition, mqtt, intent_handling, text_to_speech, speakers to die
+2024-09-19 21:35:51,497 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:35:51,499 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:35:51,501 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:35:51,505 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:35:51,510 INFO stopped: mqtt (exit status 0)
+2024-09-19 21:35:51,522 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:35:51,525 INFO supervisord started with pid 173
+2024-09-19 21:35:52,527 INFO spawned: 'mqtt' with pid 540
+2024-09-19 21:35:52,530 INFO spawned: 'intent_recognition' with pid 541
+2024-09-19 21:35:52,534 INFO spawned: 'intent_handling' with pid 542
+2024-09-19 21:35:52,538 INFO spawned: 'text_to_speech' with pid 543
+2024-09-19 21:35:52,547 INFO spawned: 'speakers' with pid 544
+2024-09-19 21:35:53,527 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:53,528 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:53,533 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:53,535 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:35:54,537 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:39:49,767 WARN received SIGHUP indicating restart request
+2024-09-19 21:39:49,767 INFO waiting for intent_recognition, mqtt, intent_handling, text_to_speech, speakers to die
+2024-09-19 21:39:49,769 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:39:49,770 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:39:49,772 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:39:49,773 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:39:49,777 INFO stopped: mqtt (exit status 0)
+2024-09-19 21:39:49,783 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:39:49,784 INFO supervisord started with pid 173
+2024-09-19 21:39:50,786 INFO spawned: 'mqtt' with pid 591
+2024-09-19 21:39:50,790 INFO spawned: 'speakers' with pid 592
+2024-09-19 21:39:50,795 INFO spawned: 'speech_to_text' with pid 593
+2024-09-19 21:39:50,801 INFO spawned: 'intent_recognition' with pid 594
+2024-09-19 21:39:50,811 INFO spawned: 'intent_handling' with pid 601
+2024-09-19 21:39:50,821 INFO spawned: 'text_to_speech' with pid 605
+2024-09-19 21:39:51,793 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:39:51,793 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:39:51,793 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:39:51,954 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:39:51,955 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:39:51,955 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:26,243 WARN received SIGHUP indicating restart request
+2024-09-19 21:43:26,245 INFO waiting for speakers, speech_to_text, mqtt, intent_recognition, intent_handling, text_to_speech to die
+2024-09-19 21:43:26,247 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:43:26,248 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:43:26,251 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:43:26,257 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:43:26,261 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:43:26,363 INFO stopped: mqtt (exit status 0)
+2024-09-19 21:43:26,368 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:43:26,369 INFO supervisord started with pid 173
+2024-09-19 21:43:27,371 INFO spawned: 'intent_recognition' with pid 657
+2024-09-19 21:43:27,374 INFO spawned: 'speakers' with pid 658
+2024-09-19 21:43:27,378 INFO spawned: 'speech_to_text' with pid 659
+2024-09-19 21:43:27,391 INFO spawned: 'intent_handling' with pid 666
+2024-09-19 21:43:27,396 INFO spawned: 'text_to_speech' with pid 670
+2024-09-19 21:43:28,548 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:28,548 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:28,549 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:28,549 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:28,549 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:52,648 WARN received SIGHUP indicating restart request
+2024-09-19 21:43:52,648 INFO waiting for intent_recognition, speakers, speech_to_text, intent_handling, text_to_speech to die
+2024-09-19 21:43:52,649 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:43:52,652 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:43:52,653 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:43:52,655 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:43:52,656 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:43:52,662 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:43:52,662 INFO supervisord started with pid 173
+2024-09-19 21:43:53,666 INFO spawned: 'intent_recognition' with pid 715
+2024-09-19 21:43:53,669 INFO spawned: 'speakers' with pid 716
+2024-09-19 21:43:53,678 INFO spawned: 'speech_to_text' with pid 719
+2024-09-19 21:43:53,685 INFO spawned: 'intent_handling' with pid 723
+2024-09-19 21:43:53,689 INFO spawned: 'text_to_speech' with pid 725
+2024-09-19 21:43:54,721 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:54,721 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:54,721 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:54,721 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:43:54,721 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:01,711 WARN received SIGHUP indicating restart request
+2024-09-19 21:47:01,712 INFO waiting for intent_recognition, speakers, speech_to_text, intent_handling, text_to_speech to die
+2024-09-19 21:47:01,713 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:47:01,714 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:47:01,715 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:47:01,718 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:47:01,719 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:47:01,724 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:47:01,724 INFO supervisord started with pid 173
+2024-09-19 21:47:02,727 INFO spawned: 'intent_recognition' with pid 776
+2024-09-19 21:47:02,737 INFO spawned: 'speakers' with pid 777
+2024-09-19 21:47:02,742 INFO spawned: 'speech_to_text' with pid 782
+2024-09-19 21:47:02,747 INFO spawned: 'intent_handling' with pid 784
+2024-09-19 21:47:02,751 INFO spawned: 'text_to_speech' with pid 786
+2024-09-19 21:47:03,938 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:03,938 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:03,938 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:03,938 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:03,938 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:39,610 WARN received SIGHUP indicating restart request
+2024-09-19 21:47:39,611 INFO waiting for intent_recognition, speakers, speech_to_text, intent_handling, text_to_speech to die
+2024-09-19 21:47:39,612 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:47:39,614 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:47:39,616 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:47:39,618 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:47:39,618 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:47:39,625 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:47:39,626 INFO supervisord started with pid 173
+2024-09-19 21:47:40,629 INFO spawned: 'intent_recognition' with pid 834
+2024-09-19 21:47:40,631 INFO spawned: 'speakers' with pid 835
+2024-09-19 21:47:40,643 INFO spawned: 'speech_to_text' with pid 839
+2024-09-19 21:47:40,648 INFO spawned: 'intent_handling' with pid 841
+2024-09-19 21:47:40,657 INFO spawned: 'text_to_speech' with pid 846
+2024-09-19 21:47:41,831 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:41,831 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:41,831 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:41,831 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:47:41,831 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:50:24,775 WARN received SIGHUP indicating restart request
+2024-09-19 21:50:24,775 INFO waiting for intent_recognition, speakers, speech_to_text, intent_handling, text_to_speech to die
+2024-09-19 21:50:24,777 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:50:24,779 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:50:24,780 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:50:24,786 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:50:24,789 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:50:24,799 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:50:24,800 INFO supervisord started with pid 173
+2024-09-19 21:50:25,803 INFO spawned: 'intent_recognition' with pid 892
+2024-09-19 21:50:25,807 INFO spawned: 'speakers' with pid 893
+2024-09-19 21:50:25,817 INFO spawned: 'speech_to_text' with pid 896
+2024-09-19 21:50:25,821 INFO spawned: 'intent_handling' with pid 900
+2024-09-19 21:50:25,825 INFO spawned: 'text_to_speech' with pid 902
+2024-09-19 21:50:26,810 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:50:26,810 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:50:26,817 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:50:26,819 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:50:26,822 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:51:03,827 WARN received SIGHUP indicating restart request
+2024-09-19 21:51:03,827 INFO waiting for intent_recognition, speakers, speech_to_text, intent_handling, text_to_speech to die
+2024-09-19 21:51:03,828 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:51:03,830 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:51:03,831 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:51:03,835 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:51:03,836 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:51:03,843 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:51:03,844 INFO supervisord started with pid 173
+2024-09-19 21:51:04,849 INFO spawned: 'intent_recognition' with pid 950
+2024-09-19 21:51:04,855 INFO spawned: 'speakers' with pid 951
+2024-09-19 21:51:04,867 INFO spawned: 'speech_to_text' with pid 954
+2024-09-19 21:51:04,875 INFO spawned: 'intent_handling' with pid 958
+2024-09-19 21:51:04,881 INFO spawned: 'text_to_speech' with pid 964
+2024-09-19 21:51:06,217 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:51:06,217 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:51:06,217 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:51:06,217 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:51:06,217 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:54:59,055 WARN received SIGHUP indicating restart request
+2024-09-19 21:54:59,055 INFO waiting for intent_recognition, speakers, speech_to_text, intent_handling, text_to_speech to die
+2024-09-19 21:54:59,055 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:54:59,057 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:54:59,058 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:54:59,060 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:54:59,062 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:54:59,070 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:54:59,070 INFO supervisord started with pid 173
+2024-09-19 21:55:00,073 INFO spawned: 'dialogue' with pid 1008
+2024-09-19 21:55:00,078 INFO spawned: 'speech_to_text' with pid 1009
+2024-09-19 21:55:00,084 INFO spawned: 'speakers' with pid 1010
+2024-09-19 21:55:00,090 INFO spawned: 'intent_recognition' with pid 1012
+2024-09-19 21:55:00,098 INFO spawned: 'intent_handling' with pid 1015
+2024-09-19 21:55:00,107 INFO spawned: 'text_to_speech' with pid 1021
+2024-09-19 21:55:01,091 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:01,091 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:01,091 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:01,092 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:01,092 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:01,187 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:22,037 WARN received SIGHUP indicating restart request
+2024-09-19 21:55:22,038 INFO waiting for dialogue, speech_to_text, speakers, intent_recognition, intent_handling, text_to_speech to die
+2024-09-19 21:55:22,039 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:55:22,043 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:55:22,046 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:55:22,049 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:55:22,049 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:55:22,052 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-19 21:55:22,061 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:55:22,061 INFO supervisord started with pid 173
+2024-09-19 21:55:23,065 INFO spawned: 'dialogue' with pid 1075
+2024-09-19 21:55:23,073 INFO spawned: 'speech_to_text' with pid 1076
+2024-09-19 21:55:23,079 INFO spawned: 'speakers' with pid 1079
+2024-09-19 21:55:23,098 INFO spawned: 'intent_recognition' with pid 1081
+2024-09-19 21:55:23,104 INFO spawned: 'intent_handling' with pid 1089
+2024-09-19 21:55:23,109 INFO spawned: 'text_to_speech' with pid 1090
+2024-09-19 21:55:24,083 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:24,083 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:24,083 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:24,083 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:24,131 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:55:24,131 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:56:34,507 WARN received SIGHUP indicating restart request
+2024-09-19 21:56:34,508 INFO waiting for dialogue, speech_to_text, speakers, intent_recognition, intent_handling, text_to_speech to die
+2024-09-19 21:56:34,509 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:56:34,509 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:56:34,510 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-19 21:56:34,510 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:56:34,511 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-19 21:56:34,513 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-19 21:56:34,524 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:56:34,525 INFO supervisord started with pid 173
+2024-09-19 21:56:35,528 INFO spawned: 'dialogue' with pid 1142
+2024-09-19 21:56:35,531 INFO spawned: 'intent_handling' with pid 1143
+2024-09-19 21:56:35,534 INFO spawned: 'text_to_speech' with pid 1144
+2024-09-19 21:56:35,541 INFO spawned: 'speakers' with pid 1149
+2024-09-19 21:56:37,038 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:56:37,038 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:56:37,038 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:56:37,038 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:56:59,394 WARN received SIGHUP indicating restart request
+2024-09-19 21:56:59,394 INFO waiting for dialogue, intent_handling, text_to_speech, speakers to die
+2024-09-19 21:56:59,395 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-19 21:56:59,397 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-19 21:56:59,398 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-19 21:56:59,399 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-19 21:56:59,408 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-19 21:56:59,408 INFO supervisord started with pid 173
+2024-09-19 21:57:00,412 INFO spawned: 'mqtt' with pid 1180
+2024-09-19 21:57:00,416 INFO spawned: 'text_to_speech' with pid 1181
+2024-09-19 21:57:00,421 INFO spawned: 'dialogue' with pid 1182
+2024-09-19 21:57:00,428 INFO spawned: 'speakers' with pid 1185
+2024-09-19 21:57:00,435 INFO spawned: 'intent_handling' with pid 1188
+2024-09-19 21:57:02,194 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:57:02,194 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:57:02,194 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:57:02,194 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-19 21:57:02,194 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 00:51:17,758 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-23 00:51:17,772 INFO supervisord started with pid 173
+2024-09-23 00:51:18,775 INFO spawned: 'mqtt' with pid 192
+2024-09-23 00:51:18,778 INFO spawned: 'text_to_speech' with pid 193
+2024-09-23 00:51:18,782 INFO spawned: 'dialogue' with pid 194
+2024-09-23 00:51:18,786 INFO spawned: 'speakers' with pid 195
+2024-09-23 00:51:18,790 INFO spawned: 'intent_handling' with pid 196
+2024-09-23 00:51:20,516 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 00:51:20,517 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 00:51:20,517 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 00:51:20,517 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 00:51:20,517 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:53:59,323 WARN received SIGHUP indicating restart request
+2024-09-23 17:53:59,324 INFO waiting for text_to_speech, mqtt, dialogue, speakers, intent_handling to die
+2024-09-23 17:53:59,325 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-23 17:53:59,327 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-23 17:53:59,329 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-23 17:53:59,330 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-23 17:53:59,335 INFO stopped: mqtt (exit status 0)
+2024-09-23 17:53:59,341 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-23 17:53:59,342 INFO supervisord started with pid 173
+2024-09-23 17:54:00,345 INFO spawned: 'mqtt' with pid 253
+2024-09-23 17:54:00,347 INFO spawned: 'microphone' with pid 254
+2024-09-23 17:54:00,352 INFO spawned: 'dialogue' with pid 255
+2024-09-23 17:54:00,355 INFO spawned: 'intent_handling' with pid 256
+2024-09-23 17:54:00,365 INFO spawned: 'text_to_speech' with pid 260
+2024-09-23 17:54:00,371 INFO spawned: 'speakers' with pid 265
+2024-09-23 17:54:01,362 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:54:01,362 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:54:01,363 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:54:01,363 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:54:01,363 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:54:01,586 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:07,299 WARN received SIGHUP indicating restart request
+2024-09-23 17:56:07,300 INFO waiting for microphone, dialogue, mqtt, intent_handling, text_to_speech, speakers to die
+2024-09-23 17:56:07,300 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-23 17:56:07,302 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-23 17:56:07,305 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-23 17:56:07,306 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-23 17:56:07,307 INFO stopped: microphone (terminated by SIGTERM)
+2024-09-23 17:56:07,352 INFO stopped: mqtt (exit status 0)
+2024-09-23 17:56:07,360 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-23 17:56:07,361 INFO supervisord started with pid 173
+2024-09-23 17:56:08,365 INFO spawned: 'mqtt' with pid 309
+2024-09-23 17:56:08,369 INFO spawned: 'microphone' with pid 310
+2024-09-23 17:56:08,374 INFO spawned: 'speech_to_text' with pid 311
+2024-09-23 17:56:08,382 INFO spawned: 'dialogue' with pid 314
+2024-09-23 17:56:08,389 INFO spawned: 'intent_recognition' with pid 317
+2024-09-23 17:56:08,394 INFO spawned: 'intent_handling' with pid 318
+2024-09-23 17:56:08,399 INFO spawned: 'text_to_speech' with pid 319
+2024-09-23 17:56:08,412 INFO spawned: 'speakers' with pid 331
+2024-09-23 17:56:09,373 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:09,374 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:09,374 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:09,375 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:09,385 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:09,399 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:09,399 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:09,404 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:35,403 WARN received SIGHUP indicating restart request
+2024-09-23 17:56:35,403 INFO waiting for microphone, speech_to_text, dialogue, mqtt, intent_recognition, intent_handling, text_to_speech, speakers to die
+2024-09-23 17:56:35,404 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-23 17:56:35,406 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-23 17:56:35,408 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-23 17:56:35,413 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-23 17:56:35,415 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-23 17:56:35,415 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-23 17:56:35,423 INFO stopped: microphone (terminated by SIGTERM)
+2024-09-23 17:56:35,450 INFO stopped: mqtt (exit status 0)
+2024-09-23 17:56:35,459 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-23 17:56:35,459 INFO supervisord started with pid 173
+2024-09-23 17:56:36,462 INFO spawned: 'mqtt' with pid 405
+2024-09-23 17:56:36,465 INFO spawned: 'microphone' with pid 406
+2024-09-23 17:56:36,468 INFO spawned: 'speech_to_text' with pid 407
+2024-09-23 17:56:36,472 INFO spawned: 'dialogue' with pid 408
+2024-09-23 17:56:36,477 INFO spawned: 'intent_recognition' with pid 411
+2024-09-23 17:56:36,481 INFO spawned: 'intent_handling' with pid 416
+2024-09-23 17:56:36,489 INFO spawned: 'text_to_speech' with pid 418
+2024-09-23 17:56:36,495 INFO spawned: 'speakers' with pid 422
+2024-09-23 17:56:37,463 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:37,463 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:37,465 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:37,470 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:37,496 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:37,496 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:37,496 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 17:56:37,496 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:57,460 WARN received SIGHUP indicating restart request
+2024-09-23 21:30:57,461 INFO waiting for microphone, speech_to_text, dialogue, mqtt, intent_recognition, intent_handling, text_to_speech, speakers to die
+2024-09-23 21:30:57,463 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-23 21:30:57,463 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-23 21:30:57,464 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-23 21:30:57,465 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-23 21:30:57,467 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-23 21:30:57,468 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-23 21:30:57,470 INFO stopped: microphone (terminated by SIGTERM)
+2024-09-23 21:30:57,474 INFO stopped: mqtt (exit status 0)
+2024-09-23 21:30:57,487 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-23 21:30:57,491 INFO supervisord started with pid 173
+2024-09-23 21:30:58,493 INFO spawned: 'mqtt' with pid 544
+2024-09-23 21:30:58,497 INFO spawned: 'microphone' with pid 545
+2024-09-23 21:30:58,501 INFO spawned: 'speech_to_text' with pid 546
+2024-09-23 21:30:58,505 INFO spawned: 'dialogue' with pid 547
+2024-09-23 21:30:58,508 INFO spawned: 'intent_recognition' with pid 548
+2024-09-23 21:30:58,521 INFO spawned: 'intent_handling' with pid 549
+2024-09-23 21:30:58,530 INFO spawned: 'text_to_speech' with pid 558
+2024-09-23 21:30:58,535 INFO spawned: 'speakers' with pid 562
+2024-09-23 21:30:59,576 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:59,577 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:59,577 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:59,579 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:59,587 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:59,587 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:59,588 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-23 21:30:59,588 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:39,187 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-25 17:01:39,207 INFO supervisord started with pid 173
+2024-09-25 17:01:40,210 INFO spawned: 'mqtt' with pid 192
+2024-09-25 17:01:40,216 INFO spawned: 'microphone' with pid 193
+2024-09-25 17:01:40,221 INFO spawned: 'speech_to_text' with pid 194
+2024-09-25 17:01:40,233 INFO spawned: 'dialogue' with pid 195
+2024-09-25 17:01:40,238 INFO spawned: 'intent_recognition' with pid 196
+2024-09-25 17:01:40,244 INFO spawned: 'intent_handling' with pid 199
+2024-09-25 17:01:40,251 INFO spawned: 'text_to_speech' with pid 201
+2024-09-25 17:01:40,264 INFO spawned: 'speakers' with pid 207
+2024-09-25 17:01:41,298 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:41,298 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:41,298 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:41,298 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:41,298 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:41,298 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:41,298 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:01:41,299 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:47,319 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-25 17:11:47,323 INFO supervisord started with pid 173
+2024-09-25 17:11:48,326 INFO spawned: 'mqtt' with pid 192
+2024-09-25 17:11:48,329 INFO spawned: 'microphone' with pid 193
+2024-09-25 17:11:48,333 INFO spawned: 'speech_to_text' with pid 194
+2024-09-25 17:11:48,339 INFO spawned: 'dialogue' with pid 195
+2024-09-25 17:11:48,344 INFO spawned: 'intent_recognition' with pid 196
+2024-09-25 17:11:48,351 INFO spawned: 'intent_handling' with pid 201
+2024-09-25 17:11:48,358 INFO spawned: 'text_to_speech' with pid 203
+2024-09-25 17:11:48,365 INFO spawned: 'speakers' with pid 209
+2024-09-25 17:11:49,343 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:49,343 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:49,343 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:49,343 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:49,343 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:49,346 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:49,355 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:11:49,395 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:28,070 WARN received SIGHUP indicating restart request
+2024-09-25 17:42:28,072 INFO waiting for microphone, speech_to_text, dialogue, mqtt, intent_recognition, intent_handling, text_to_speech, speakers to die
+2024-09-25 17:42:28,073 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-25 17:42:28,075 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-25 17:42:28,077 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-25 17:42:28,080 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-25 17:42:28,081 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-25 17:42:28,082 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-25 17:42:28,083 INFO stopped: microphone (terminated by SIGTERM)
+2024-09-25 17:42:28,085 INFO stopped: mqtt (exit status 0)
+2024-09-25 17:42:28,093 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-25 17:42:28,093 INFO supervisord started with pid 173
+2024-09-25 17:42:29,095 INFO spawned: 'mqtt' with pid 300
+2024-09-25 17:42:29,100 INFO spawned: 'microphone' with pid 301
+2024-09-25 17:42:29,104 INFO spawned: 'speech_to_text' with pid 302
+2024-09-25 17:42:29,107 INFO spawned: 'dialogue' with pid 303
+2024-09-25 17:42:29,116 INFO spawned: 'intent_recognition' with pid 306
+2024-09-25 17:42:29,128 INFO spawned: 'intent_handling' with pid 315
+2024-09-25 17:42:29,144 INFO spawned: 'text_to_speech' with pid 319
+2024-09-25 17:42:29,156 INFO spawned: 'speakers' with pid 322
+2024-09-25 17:42:30,096 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:30,096 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:30,150 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:30,150 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:30,150 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:30,150 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:30,150 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:42:30,150 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:02,461 WARN received SIGHUP indicating restart request
+2024-09-25 17:56:02,464 INFO waiting for microphone, speech_to_text, dialogue, mqtt, intent_recognition, intent_handling, text_to_speech, speakers to die
+2024-09-25 17:56:02,464 INFO stopped: speakers (terminated by SIGTERM)
+2024-09-25 17:56:02,465 INFO stopped: text_to_speech (terminated by SIGTERM)
+2024-09-25 17:56:02,466 INFO stopped: intent_handling (terminated by SIGTERM)
+2024-09-25 17:56:02,467 INFO stopped: intent_recognition (terminated by SIGTERM)
+2024-09-25 17:56:02,468 INFO stopped: dialogue (terminated by SIGTERM)
+2024-09-25 17:56:02,471 INFO stopped: speech_to_text (terminated by SIGTERM)
+2024-09-25 17:56:02,472 INFO stopped: microphone (terminated by SIGTERM)
+2024-09-25 17:56:02,515 INFO stopped: mqtt (exit status 0)
+2024-09-25 17:56:02,522 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-25 17:56:02,522 INFO supervisord started with pid 173
+2024-09-25 17:56:03,525 INFO spawned: 'mqtt' with pid 392
+2024-09-25 17:56:03,527 INFO spawned: 'microphone' with pid 393
+2024-09-25 17:56:03,531 INFO spawned: 'speech_to_text' with pid 394
+2024-09-25 17:56:03,538 INFO spawned: 'dialogue' with pid 397
+2024-09-25 17:56:03,541 INFO spawned: 'wake_word' with pid 399
+2024-09-25 17:56:03,552 INFO spawned: 'intent_recognition' with pid 401
+2024-09-25 17:56:03,566 INFO spawned: 'intent_handling' with pid 411
+2024-09-25 17:56:03,568 INFO spawned: 'text_to_speech' with pid 412
+2024-09-25 17:56:03,580 INFO spawned: 'speakers' with pid 419
+2024-09-25 17:56:04,261 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 17:56:04,527 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:04,527 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:04,569 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:04,570 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:04,570 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:04,570 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:04,570 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:04,570 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 17:56:05,383 INFO spawned: 'wake_word' with pid 483
+2024-09-25 17:56:05,562 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 17:56:07,567 INFO spawned: 'wake_word' with pid 492
+2024-09-25 17:56:07,710 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 17:56:10,715 INFO spawned: 'wake_word' with pid 500
+2024-09-25 17:56:10,853 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 17:56:11,854 INFO gave up: wake_word entered FATAL state, too many start retries too quickly
+2024-09-25 20:29:07,348 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-25 20:29:07,351 INFO supervisord started with pid 173
+2024-09-25 20:29:08,354 INFO spawned: 'mqtt' with pid 192
+2024-09-25 20:29:08,357 INFO spawned: 'microphone' with pid 193
+2024-09-25 20:29:08,361 INFO spawned: 'speech_to_text' with pid 194
+2024-09-25 20:29:08,364 INFO spawned: 'dialogue' with pid 195
+2024-09-25 20:29:08,370 INFO spawned: 'wake_word' with pid 201
+2024-09-25 20:29:08,375 INFO spawned: 'intent_recognition' with pid 204
+2024-09-25 20:29:08,381 INFO spawned: 'intent_handling' with pid 210
+2024-09-25 20:29:08,390 INFO spawned: 'text_to_speech' with pid 211
+2024-09-25 20:29:08,392 INFO spawned: 'speakers' with pid 217
+2024-09-25 20:29:08,816 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 20:29:09,371 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:09,372 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:09,373 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:09,373 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:09,373 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:09,379 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:09,383 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:09,425 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-25 20:29:10,553 INFO spawned: 'wake_word' with pid 284
+2024-09-25 20:29:10,700 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 20:29:12,729 INFO spawned: 'wake_word' with pid 304
+2024-09-25 20:29:12,874 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 20:29:15,879 INFO spawned: 'wake_word' with pid 312
+2024-09-25 20:29:16,020 INFO exited: wake_word (exit status 1; not expected)
+2024-09-25 20:29:17,021 INFO gave up: wake_word entered FATAL state, too many start retries too quickly
+2024-09-26 20:41:30,423 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-26 20:41:30,436 INFO supervisord started with pid 172
+2024-09-26 20:41:31,438 INFO spawned: 'mqtt' with pid 191
+2024-09-26 20:41:31,442 INFO spawned: 'microphone' with pid 192
+2024-09-26 20:41:31,445 INFO spawned: 'speech_to_text' with pid 193
+2024-09-26 20:41:31,449 INFO spawned: 'dialogue' with pid 194
+2024-09-26 20:41:31,453 INFO spawned: 'wake_word' with pid 195
+2024-09-26 20:41:31,456 INFO spawned: 'intent_recognition' with pid 196
+2024-09-26 20:41:31,464 INFO spawned: 'intent_handling' with pid 197
+2024-09-26 20:41:31,475 INFO spawned: 'text_to_speech' with pid 206
+2024-09-26 20:41:31,491 INFO spawned: 'speakers' with pid 216
+2024-09-26 20:41:31,945 INFO exited: wake_word (exit status 1; not expected)
+2024-09-26 20:41:32,609 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,609 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,609 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,609 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,609 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,609 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,609 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,609 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-26 20:41:32,996 INFO spawned: 'wake_word' with pid 267
+2024-09-26 20:41:33,226 INFO exited: wake_word (exit status 1; not expected)
+2024-09-26 20:41:35,570 INFO spawned: 'wake_word' with pid 291
+2024-09-26 20:41:35,745 INFO exited: wake_word (exit status 1; not expected)
+2024-09-26 20:41:38,750 INFO spawned: 'wake_word' with pid 299
+2024-09-26 20:41:38,895 INFO exited: wake_word (exit status 1; not expected)
+2024-09-26 20:41:39,896 INFO gave up: wake_word entered FATAL state, too many start retries too quickly
+2024-09-28 17:39:13,542 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-09-28 17:39:13,593 INFO supervisord started with pid 172
+2024-09-28 17:39:14,596 INFO spawned: 'mqtt' with pid 191
+2024-09-28 17:39:14,600 INFO spawned: 'microphone' with pid 192
+2024-09-28 17:39:14,608 INFO spawned: 'speech_to_text' with pid 193
+2024-09-28 17:39:14,614 INFO spawned: 'dialogue' with pid 195
+2024-09-28 17:39:14,618 INFO spawned: 'wake_word' with pid 196
+2024-09-28 17:39:14,622 INFO spawned: 'intent_recognition' with pid 199
+2024-09-28 17:39:14,626 INFO spawned: 'intent_handling' with pid 201
+2024-09-28 17:39:14,631 INFO spawned: 'text_to_speech' with pid 202
+2024-09-28 17:39:14,635 INFO spawned: 'speakers' with pid 203
+2024-09-28 17:39:15,227 INFO exited: wake_word (exit status 1; not expected)
+2024-09-28 17:39:15,809 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:15,809 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:15,809 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:15,810 INFO success: dialogue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:15,810 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:15,810 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:15,810 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:15,810 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2024-09-28 17:39:16,886 INFO spawned: 'wake_word' with pid 265
+2024-09-28 17:39:17,058 INFO exited: wake_word (exit status 1; not expected)
+2024-09-28 17:39:19,061 INFO spawned: 'wake_word' with pid 280
+2024-09-28 17:39:19,247 INFO exited: wake_word (exit status 1; not expected)
+2024-09-28 17:39:23,019 INFO spawned: 'wake_word' with pid 299
+2024-09-28 17:39:23,176 INFO exited: wake_word (exit status 1; not expected)
+2024-09-28 17:39:24,177 INFO gave up: wake_word entered FATAL state, too many start retries too quickly

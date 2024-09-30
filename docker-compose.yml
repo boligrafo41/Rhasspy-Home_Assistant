@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - /home/one/copiaseguridad/config:/config
+      - /etc/localtime:/etc/localtime:ro
+      - /run/dbus:/run/dbus:ro
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+
+  nodered:
+    container_name: nodered
+    image: nodered/node-red:latest
+    
+    user: "1000:1000"
+    ports:
+      - "1880:1880"
+    volumes:
+      - ./nodered:/data
+    restart: unless-stopped
+    depends_on:
+      - mosquitto
+
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto:latest
+
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    restart: unless-stopped
+
+  portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    ports:
+      - "9443:9443"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer/data:/data
+    restart: unless-stopped
+
+  rhasspy:
+    container_name: rhasspy
+    image: rhasspy/rhasspy
+    network_mode: host
+    volumes:
+      - ./rhasspy/profiles/es:/profiles
+      - "/etc/localtime:/etc/localtime:ro"
+    devices:
+      - "/dev/snd:/dev/snd"
+    restart: unless-stopped
+    environment:
+      - RHASSPY_PROFILE=es
+    depends_on:
+      - mosquitto
+    command: --user-profiles /profiles --profile es
+    privileged: true
+    group_add:
+      - audio
+#networks:
+#  home_net:
+#    external: true
+
+
+
+
+

@@ -1,0 +1,307 @@
+
+\data\
+ngram 1=17
+ngram 2=78
+ngram 3=199
+
+\1-grams:
+-99	<s>	-2.014437
+-0.7877516	</s>
+-1.709069	enciende	-0.962902
+-1.709069	apaga	-0.962902
+-1.183575	la	-1.285343
+-1.255851	las	-1.320379
+-2.023707	bombilla	-0.6958706
+-2.023707	luces	-0.6958706
+-2.023707	luz	-0.6958706
+-0.7350611	de	-1.892414
+-1.337121	los	-1.306751
+-1.337121	del	-1.306751
+-1.207811	sube	-2.195011
+-1.207811	baja	-2.195011
+-0.9067807	el	-2.494653
+-0.9067807	volumen	-1.723394
+-3.238605	alarma	-0.3892059
+
+\2-grams:
+-0.9248475	<s> enciende	-0.9628926
+-0.9248475	<s> apaga	-0.9628926
+-0.4235896	<s> sube	-2.195011
+-0.4235896	<s> baja	-2.195011
+-1.274291	enciende </s>
+-0.3280811	enciende la	-0.8675769
+-0.6204209	enciende las	-0.8712487
+-0.8415973	enciende de	-0.3300414
+-1.64357	enciende los	-0.2956942
+-1.64357	enciende del	-0.2956942
+-1.274291	apaga </s>
+-0.3280811	apaga la	-0.8675769
+-0.6204209	apaga las	-0.8712487
+-0.8415973	apaga de	-0.3300414
+-1.64357	apaga los	-0.2956942
+-1.64357	apaga del	-0.2956942
+-0.3753831	la </s>
+-1.578574	la la	-0.6982543
+-1.58723	la las	-0.6982543
+-0.8616964	la bombilla	-0.6958709
+-0.8616964	la luz	-0.6958709
+-0.7683086	la de	-0.7525748
+-1.59555	la los	-0.6982543
+-1.59555	la del	-0.6982543
+-2.076595	la alarma	-0.3892059
+-0.3032113	las </s>
+-1.517066	las la	-0.6982543
+-1.523983	las las	-0.6982543
+-0.7879291	las luces	-0.6958709
+-0.6996316	las de	-0.7525748
+-1.530606	las los	-0.6982543
+-1.530606	las del	-0.6982543
+-1.002678	bombilla </s>
+-1.098287	bombilla la	-0.47454
+-1.10945	bombilla las	-0.47454
+-0.298514	bombilla de	-0.5202003
+-1.12024	bombilla los	-0.47454
+-1.12024	bombilla del	-0.47454
+-1.002678	luces </s>
+-1.098287	luces la	-0.47454
+-1.10945	luces las	-0.47454
+-0.298514	luces de	-0.5202003
+-1.12024	luces los	-0.47454
+-1.12024	luces del	-0.47454
+-1.002678	luz </s>
+-1.098287	luz la	-0.47454
+-1.10945	luz las	-0.47454
+-0.298514	luz de	-0.5202003
+-1.12024	luz los	-0.47454
+-1.12024	luz del	-0.47454
+-0.6351546	de </s>
+-0.8632084	de la	-1.065594
+-0.8636165	de las	-1.065594
+-0.6670637	de de	-1.245857
+-0.8640015	de los	-1.065579
+-0.8640015	de del	-1.065579
+-0.2236105	los </s>
+-1.442934	los la	-0.6982543
+-1.448946	los las	-0.6982543
+-0.6218007	los de	-0.7525748
+-1.454689	los los	-0.6982543
+-1.454689	los del	-0.6982543
+-0.2236105	del </s>
+-1.442934	del la	-0.6982543
+-1.448946	del las	-0.6982543
+-0.6218007	del de	-0.7525748
+-1.454689	del los	-0.6982543
+-1.454689	del del	-0.6982543
+-0.002435137	sube el	-2.195011
+-0.002435137	baja el	-2.195011
+-0.00121976	el volumen	-1.723157
+-1.805201	volumen </s>
+-1.049218	volumen la	-0.7525908
+-1.050143	volumen las	-0.7525905
+-0.2077429	volumen de	-1.52585
+-1.051016	volumen los	-0.7525862
+-1.051016	volumen del	-0.7525862
+-0.1815049	alarma </s>
+
+\3-grams:
+-1.384989	<s> enciende </s>
+-0.2891726	<s> enciende la
+-0.585511	<s> enciende las
+-0.8549513	<s> enciende de
+-1.694986	<s> enciende los
+-1.694986	<s> enciende del
+-1.384989	<s> apaga </s>
+-0.2891726	<s> apaga la
+-0.585511	<s> apaga las
+-0.8549513	<s> apaga de
+-1.694986	<s> apaga los
+-1.694986	<s> apaga del
+-1.5499e-05	<s> sube el
+-1.5499e-05	<s> baja el
+-1.044611	enciende la </s>
+-0.374699	enciende la bombilla
+-0.374699	enciende la luz
+-1.589597	enciende la alarma
+-0.8776879	enciende las </s>
+-0.08523478	enciende las luces
+-0.5843052	enciende de </s>
+-0.8534741	enciende de la
+-0.8536607	enciende de las
+-0.7527318	enciende de de
+-0.8538367	enciende de los
+-0.8538367	enciende de del
+-0.09892434	enciende los </s>
+-0.09892434	enciende del </s>
+-1.044611	apaga la </s>
+-0.374699	apaga la bombilla
+-0.374699	apaga la luz
+-1.589597	apaga la alarma
+-0.8776879	apaga las </s>
+-0.08523478	apaga las luces
+-0.5843052	apaga de </s>
+-0.8534741	apaga de la
+-0.8536607	apaga de las
+-0.7527318	apaga de de
+-0.8538367	apaga de los
+-0.8538367	apaga de del
+-0.09892434	apaga los </s>
+-0.09892434	apaga del </s>
+-0.05351136	la la </s>
+-0.04607936	la las </s>
+-1.062649	la bombilla </s>
+-1.082963	la bombilla la
+-1.085111	la bombilla las
+-0.2463155	la bombilla de
+-1.087146	la bombilla los
+-1.087146	la bombilla del
+-1.062649	la luz </s>
+-1.082963	la luz la
+-1.085111	la luz las
+-0.2463155	la luz de
+-1.087146	la luz los
+-1.087146	la luz del
+-0.5588415	la de </s>
+-0.848245	la de la
+-0.8483147	la de las
+-0.8078413	la de de
+-0.8483803	la de los
+-0.8483803	la de del
+-0.03650427	la los </s>
+-0.03650427	la del </s>
+-0.06520497	la alarma </s>
+-0.05351136	las la </s>
+-0.04607936	las las </s>
+-1.062649	las luces </s>
+-1.082963	las luces la
+-1.085111	las luces las
+-0.2463155	las luces de
+-1.087146	las luces los
+-1.087146	las luces del
+-0.5588415	las de </s>
+-0.848245	las de la
+-0.8483147	las de las
+-0.8078413	las de de
+-0.8483803	las de los
+-0.8483803	las de del
+-0.03650427	las los </s>
+-0.03650427	las del </s>
+-0.0936874	bombilla la </s>
+-0.08013785	bombilla las </s>
+-0.5696095	bombilla de </s>
+-0.850486	bombilla de la
+-0.8506056	bombilla de las
+-0.7832801	bombilla de de
+-0.8507183	bombilla de los
+-0.8507183	bombilla de del
+-0.06295512	bombilla los </s>
+-0.06295512	bombilla del </s>
+-0.0936874	luces la </s>
+-0.08013785	luces las </s>
+-0.5696095	luces de </s>
+-0.850486	luces de la
+-0.8506056	luces de las
+-0.7832801	luces de de
+-0.8507183	luces de los
+-0.8507183	luces de del
+-0.06295512	luces los </s>
+-0.06295512	luces del </s>
+-0.0936874	luz la </s>
+-0.08013785	luz las </s>
+-0.5696095	luz de </s>
+-0.850486	luz de la
+-0.8506056	luz de las
+-0.7832801	luz de de
+-0.8507183	luz de los
+-0.8507183	luz de del
+-0.06295512	luz los </s>
+-0.06295512	luz del </s>
+-0.1967966	de la </s>
+-1.510457	de la la
+-1.511088	de la las
+-0.6678264	de la de
+-1.511683	de la los
+-1.511683	de la del
+-0.1923447	de las </s>
+-1.505628	de las la
+-1.506203	de las las
+-0.6627797	de las de
+-1.506745	de las los
+-1.506745	de las del
+-0.3320967	de de </s>
+-1.079347	de de la
+-1.079386	de de las
+-0.6967444	de de de
+-1.079421	de de los
+-1.079421	de de del
+-0.1865642	de los </s>
+-1.49891	de los la
+-1.499494	de los las
+-0.6560985	de los de
+-1.500046	de los los
+-1.500046	de los del
+-0.1865642	de del </s>
+-1.49891	de del la
+-1.499494	de del las
+-0.6560985	de del de
+-1.500046	de del los
+-1.500046	de del del
+-0.05351136	los la </s>
+-0.04607936	los las </s>
+-0.5588415	los de </s>
+-0.848245	los de la
+-0.8483147	los de las
+-0.8078413	los de de
+-0.8483803	los de los
+-0.8483803	los de del
+-0.03650427	los los </s>
+-0.03650427	los del </s>
+-0.05351136	del la </s>
+-0.04607936	del las </s>
+-0.5588415	del de </s>
+-0.848245	del de la
+-0.8483147	del de las
+-0.8078413	del de de
+-0.8483803	del de los
+-0.8483803	del de del
+-0.03650427	del los </s>
+-0.03650427	del del </s>
+-7.774239e-06	sube el volumen
+-7.774239e-06	baja el volumen
+-1.89028	el volumen </s>
+-1.047039	el volumen la
+-1.047056	el volumen las
+-0.2020083	el volumen de
+-1.047072	el volumen los
+-1.047072	el volumen del
+-0.600527	volumen la </s>
+-1.197452	volumen la la
+-1.198083	volumen la las
+-0.3548216	volumen la de
+-1.198678	volumen la los
+-1.198678	volumen la del
+-0.5778229	volumen las </s>
+-1.192623	volumen las la
+-1.193198	volumen las las
+-0.349775	volumen las de
+-1.193741	volumen las los
+-1.193741	volumen las del
+-1.178506	volumen de </s>
+-0.7891888	volumen de la
+-0.789199	volumen de las
+-0.5472679	volumen de de
+-0.7892087	volumen de los
+-0.7892087	volumen de del
+-0.5496907	volumen los </s>
+-1.185905	volumen los la
+-1.18649	volumen los las
+-0.3430937	volumen los de
+-1.187041	volumen los los
+-1.187041	volumen los del
+-0.5496907	volumen del </s>
+-1.185905	volumen del la
+-1.18649	volumen del las
+-0.3430937	volumen del de
+-1.187041	volumen del los
+-1.187041	volumen del del
+
+\end\

@@ -1,0 +1,41 @@
+{
+    "dialogue": {
+        "system": "rhasspy"
+    },
+    "handle": {
+        "system": "hass"
+    },
+    "intent": {
+        "system": "fsticuffs"
+    },
+    "microphone": {
+        "arecord": {
+            "device": "default:CARD=Device"
+        },
+        "pyaudio": {
+            "device": "0"
+        },
+        "system": "pyaudio"
+    },
+    "mqtt": {
+        "enabled": "true",
+        "password": "one",
+        "site_id": "Domotica",
+        "username": "Ovidio"
+    },
+    "sounds": {
+        "aplay": {
+            "device": "usbstream:CARD=Device"
+        },
+        "system": "aplay"
+    },
+    "speech_to_text": {
+        "system": "pocketsphinx"
+    },
+    "text_to_speech": {
+        "system": "espeak"
+    },
+    "wake": {
+        "system": "disable"
+    }
+}

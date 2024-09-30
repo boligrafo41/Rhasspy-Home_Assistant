@@ -1,0 +1,5 @@
+2024-07-07 19:11:40.663 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2024-07-07 19:11:42.095 ERROR (MainThread) [homeassistant.config] Invalid config for 'mqtt' at configuration.yaml, line 12: 'broker' is an invalid option for 'mqtt', check: mqtt->0->broker, please check the docs at https://www.home-assistant.io/integrations/mqtt
+Invalid config for 'mqtt' at configuration.yaml, line 12: 'port' is an invalid option for 'mqtt', check: mqtt->0->port, please check the docs at https://www.home-assistant.io/integrations/mqtt
+2024-07-07 19:11:42.095 ERROR (MainThread) [homeassistant.setup] Setup failed for 'mqtt': Invalid config.
+2024-07-07 19:11:42.170 ERROR (MainThread) [homeassistant.components.automation.control_de_luces_por_voz] Got error 'Cannot subscribe to topic 'hermes/intent/ControlLuces', make sure MQTT is set up correctly' when setting up triggers for Control de Luces por Voz

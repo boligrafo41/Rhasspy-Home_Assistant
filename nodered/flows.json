@@ -1,0 +1,118 @@
+[
+    {
+        "id": "fb540228a0cde281",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "dd25b6b62b13159d",
+        "type": "tab",
+        "label": "Rhasspy Intent",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "70124295.5e68f4",
+        "type": "tab",
+        "label": "Rhasspy Wake",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "cb41b1404be16d47",
+        "type": "websocket-client",
+        "path": "ws://localhost:12101/api/events/intent",
+        "tls": "",
+        "wholemsg": "true",
+        "hb": "0",
+        "subprotocol": "",
+        "headers": []
+    },
+    {
+        "id": "a299c18a8ce980d2",
+        "type": "websocket-client",
+        "path": "[{\"id\":\"70d90eed.9fc7e8\",\"type\":\"tab\",\"label\":\"Rhasspy Intent\",\"disabled\":false,\"info\":\"\"},{\"id\":\"d7f94fdd.9b5028\",\"type\":\"debug\",\"z\":\"70d90eed.9fc7e8\",\"name\":\"\",\"active\":true,\"tosidebar\":true,\"console\":false,\"tostatus\":false,\"complete\":\"true\",\"targetType\":\"full\",\"x\":230,\"y\":200,\"wires\":[]},{\"id\":\"d60f2a3e.ec485\",\"type\":\"websocket in\",\"z\":\"70d90eed.9fc7e8\",\"name\":\"\",\"server\":\"\",\"client\":\"be111083.116b5\",\"x\":200,\"y\":60,\"wires\":[[\"d7f94fdd.9b5028\"]]},{\"id\":\"be111083.116b5\",\"type\":\"websocket-client\",\"z\":\"\",\"path\":\"ws://192.168.1.62:12101/api/events/intent\",\"tls\":\"\",\"wholemsg\":\"true\"}]",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0",
+        "subprotocol": "",
+        "headers": []
+    },
+    {
+        "id": "be111083.116b5",
+        "type": "websocket-client",
+        "path": "ws://192.168.1.62:12101/api/events/intent",
+        "tls": "",
+        "wholemsg": "true"
+    },
+    {
+        "id": "13bb27da.a15648",
+        "type": "websocket-client",
+        "path": "ws://192.168.1.62:12101/api/events/wake",
+        "tls": "",
+        "wholemsg": "true"
+    },
+    {
+        "id": "231ae77a05cdd517",
+        "type": "debug",
+        "z": "dd25b6b62b13159d",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 530,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "401d9c595409f408",
+        "type": "websocket in",
+        "z": "dd25b6b62b13159d",
+        "name": "",
+        "server": "",
+        "client": "be111083.116b5",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            [
+                "231ae77a05cdd517"
+            ]
+        ]
+    },
+    {
+        "id": "33ac0d1e.2f1b1a",
+        "type": "debug",
+        "z": "70124295.5e68f4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 230,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d46737be.d4eb28",
+        "type": "websocket in",
+        "z": "70124295.5e68f4",
+        "name": "",
+        "server": "",
+        "client": "13bb27da.a15648",
+        "x": 200,
+        "y": 80,
+        "wires": [
+            [
+                "33ac0d1e.2f1b1a"
+            ]
+        ]
+    }
+]

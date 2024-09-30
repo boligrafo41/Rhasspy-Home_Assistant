@@ -1,0 +1,28 @@
+[intent:controldeluces]
+- {accion} la bombilla de {ubicacion}
+- {accion} las luces de {ubicacion}
+- {accion} la luz de {ubicacion}
+
+[intent:controldetemperatura]
+- ajusta la calefaccion a {temperature:number} grados
+- pon la calefaccion a {temperature:number} grados
+
+[intent:controlvoldeaparatos]
+- {accionarvol} el volumen de {dispositivo}
+
+[intent:controldealarma]
+- {alarma} la alarma
+
+[intent:controlaparatos]
+- {accion} {dispositivo}
+
+[GetTemperature]
+- cual es la temperatura
+- que calor hace
+- que frio esta
+
+[GetGarageState]
+- esta {state:open|closed} la puerta del garaje
+
+[ChangeLightState]
+- {state:encender|apagar} la {device:lampara de la sala|lampara de la sala de estar|luz del garaje}

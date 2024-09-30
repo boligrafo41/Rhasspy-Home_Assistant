@@ -1,0 +1,19 @@
+
+- alias: 'Control de Luces por Voz'
+  trigger:
+    platform: mqtt
+    topic: 'hermes/intent/ControlLuces'
+  action:
+    service_template: >
+      {% if trigger.payload_json['slots'][0]['value']['value'] == 'encender' %}
+        light.turn_on
+      {% elif trigger.payload_json['slots'][0]['value']['value'] == 'apagar' %}
+        light.turn_off
+      {% endif %}
+    data_template:
+      entity_id: >
+        {% if trigger.payload_json['slots'][1]['value']['value'] == 'salon' %}
+          light.salon
+        {% elif trigger.payload_json['slots'][1]['value']['value'] == 'dormitorio' %}
+          light.dormitorio
+        {% endif %}

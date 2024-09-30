@@ -1,0 +1,35 @@
+{
+    "dialogue": {
+        "system": "rhasspy"
+    },
+    "handle": {
+        "system": "hass"
+    },
+    "intent": {
+        "system": "fsticuffs"
+    },
+    "microphone": {
+        "system": "pyaudio"
+    },
+    "mqtt": {
+        "enabled": "",
+        "password": "one",
+        "username": "Ovidio"
+    },
+    "sounds": {
+        "aplay": {
+            "device": "hw:CARD=Device_1,DEV=0",
+            "volume": "1"
+        },
+        "system": "aplay"
+    },
+    "speech_to_text": {
+        "system": "pocketsphinx"
+    },
+    "text_to_speech": {
+        "system": "espeak"
+    },
+    "wake": {
+        "system": "porcupine"
+    }
+}

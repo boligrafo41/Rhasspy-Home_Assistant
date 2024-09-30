@@ -1,0 +1,41 @@
+{
+  "locale": "es",
+  "language": "es",
+  "wake": {
+    "system": "disable",
+    "porcupine": {
+      "keyword_path": "profiles/es/Beltran_es_raspberry-pi_v3_0_0.ppn",
+      "sensitivity": 0.5
+    }
+  },
+  "microphone": {
+    "system": "arecord",
+    "arecord": {
+      "device": "plughw:2,0"
+    }
+  },
+
+"sounds": {
+    "system": "aplay",
+    "aplay": {
+      "device": "plughw:3,0"
+    }
+  },
+
+  "speech_to_text": {
+    "system": "kaldi"
+  },
+  "text_to_speech": {
+    "system": "espeak"
+  },
+  "intent": {
+    "system": "fsticuffs"
+  },
+  "handle": {
+    "system": "hass",
+    "hass": {
+      "url": "http://homeassistant:8123",
+      "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI1NDY1YjIwYjhmY2I0NGZiYThhNzQ0ODg0ZTg5ZDJiZCIsImlhdCI6MTcyMDQ0ODgyNCwiZXhwIjoyMDM1ODA4ODI0fQ.3h_cRMIi30KjCkHsnrz0zIKuneYDJ-PCumgqt11l0Go"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[accion]
+apaga
+enciende
+
+[ubicacion]
+buhardilla
+dormitorio pequeño
+dormitorio grande
+entrada
+escalera
+pasillo
+salón
+aseo
+baño
+cocina
+
+[temperatura]
+baja
+sube
+
+[dispositivo]
+apple tv
+tele del dormitorio
+tele de la buhardilla
+tele del salón
+cadena de musica
+
+[hora]
+number
+
+[acionarvol]
+baja
+sube
+
+[alarma]
+desactiva
+activa

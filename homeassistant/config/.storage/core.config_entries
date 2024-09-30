@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "17e117c15d7bd02aa0d1167bdb6b01e0",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1c0daff9a9e2d8ae6a6df445e004b0c0",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "bluetooth",
+        "title": "Raspberry Pi Trading Ltd bcm43438-bt (D8:3A:DD:C0:25:7E)",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "D8:3A:DD:C0:25:7E",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9a937f85bbb1d97d84a50a65bd3af280",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "shopping_list",
+        "title": "Shopping list",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": "shopping_list",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "07536ed3660eccc43e5f35554dbf8134",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f788ba50975073dd143403d10fca579d",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a47914ce82f4b32fd4b0b4c447cead19",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e0f9f5b9cbb4bba3bb5801a3605ac94a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dmr",
+        "title": "LGPC Ovi (XEON)",
+        "data": {
+          "url": "http://192.168.1.8:1469/",
+          "device_id": "uuid:b15dc73e-f536-4416-85e6-4dc83f044c29",
+          "type": "urn:schemas-upnp-org:device:MediaRenderer:1",
+          "mac": "00:e0:6e:68:08:9a"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:b15dc73e-f536-4416-85e6-4dc83f044c29",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "98978b0b74ce8cd9fd2b0f286f15efc0",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "webostv",
+        "title": "[LG] webOS TV NANO816NA",
+        "data": {
+          "host": "192.168.1.99",
+          "client_secret": "5ceae66bdb12a278ce567bd85c6f55ae"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "04e4b59f-d499-648e-d2ec-a720c3599c24",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "dfeb6507b93c10e3345678f1605a1d20",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dms",
+        "title": "PCGON: gonzalosalomonaranda@gmail.com:",
+        "data": {
+          "url": "http://192.168.1.231:2869/upnphost/udhisapi.dll?content=uuid:d3613ba9-d94a-4550-b274-d939091a79d2",
+          "device_id": "uuid:d3613ba9-d94a-4550-b274-d939091a79d2::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "pcgon_gonzalosalomonaranda_gmail_com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:d3613ba9-d94a-4550-b274-d939091a79d2::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "679391ff0823cb5ccf08bf1214fd0c25",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "dlna_dms",
+        "title": "PCANGELA: one:",
+        "data": {
+          "url": "http://192.168.1.217:2869/upnphost/udhisapi.dll?content=uuid:0272d9f3-d90e-4b54-a93a-08051aac7628",
+          "device_id": "uuid:0272d9f3-d90e-4b54-a93a-08051aac7628::urn:schemas-upnp-org:device:MediaServer:1",
+          "source_id": "pcangela_one"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:0272d9f3-d90e-4b54-a93a-08051aac7628::urn:schemas-upnp-org:device:MediaServer:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f6bd272ad30384ccab19d481dbbcc783",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ipp",
+        "title": "HP OfficeJet 3830 series [7BA56D]",
+        "data": {
+          "host": "192.168.1.107",
+          "port": 631,
+          "ssl": false,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "HP OfficeJet 3830 series [7BA56D]",
+          "uuid": "1c852a4d-b800-1f08-abcd-48ba4e7ba56d"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "1c852a4d-b800-1f08-abcd-48ba4e7ba56d",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "28ad0c7c6fb89723af442a9d68c57b39",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "ibeacon",
+        "title": "iBeacon Tracker",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "bluetooth",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cef29541de7c6e9e2327719b666c7c89",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "upnp",
+        "title": "LiveboxFibra",
+        "data": {
+          "udn": "uuid:3403da74-7381-4416-9bc1-7b976339ecdc",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+          "original_udn": "uuid:d8300d0f-2cdf-4d63-95c9-94f2c474053f",
+          "location": "http://192.168.1.1:57274/c64a626b/rootDesc.xml",
+          "mac_address": "ec:f4:51:b3:31:f9",
+          "host": "192.168.1.1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:3403da74-7381-4416-9bc1-7b976339ecdc::urn:schemas-upnp-org:device:InternetGatewayDevice:2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0446b541f4a559b11c4d50d04ea1da1e",
+        "version": 4,
+        "minor_version": 1,
+        "domain": "zha",
+        "title": "SONOFF Zigbee 3.0 USB Dongle Plus V2",
+        "data": {
+          "device": {
+            "path": "/dev/ttyACM0",
+            "baudrate": 115200,
+            "flow_control": null
+          },
+          "radio_type": "ezsp"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "usb",
+        "unique_id": "1A86:55D4_20231215161945_ITEAD_SONOFF Zigbee 3.0 USB Dongle Plus V2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9617e7e5fabf159852ee9607fd0e7242",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mobile_app",
+        "title": "iPhone de Ovidio Miguel",
+        "data": {
+          "app_id": "io.robbie.HomeAssistant",
+          "app_name": "Home Assistant",
+          "device_id": "581C3101-DC85-4CCD-A2F6-7C5D226FCD31",
+          "device_name": "iPhone de Ovidio Miguel",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "cEFjdE7zpUS4qR_EiDYH2L:APA91bEfO0uM8LeSQs3O-5uvnPFZ0FCMysMUalVNMdLYEVmuKxncntjjU5AOrB-uk1oTKUz1jzHGIDi04rUpK6xvzbBjza2CvV4a9RBFXpiMRCsHEwL-uoer7zn8gKCWuGtilNNgYjlp"
+          },
+          "os_version": "17.5.1",
+          "supports_encryption": true,
+          "model": "iPhone13,3",
+          "os_name": "iOS",
+          "app_version": "2024.5.1 (2024.688)",
+          "manufacturer": "Apple",
+          "webhook_id": "49d6e319df08f799d8a1ccd43c99af6e504a98fb55ecb7f674c5fb0392a627de",
+          "secret": "57c5b28e0027a410db457a4440b12f3ce1d233823ca3e1a01af1297e8b2080d3",
+          "user_id": "5167920898d744a8b32792ad3fe78570",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-581C3101-DC85-4CCD-A2F6-7C5D226FCD31",
+        "disabled_by": null
+      }
+    ]
+  }
+}
